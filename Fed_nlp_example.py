@@ -1,7 +1,15 @@
 
 ''' Example from Prof. Levy
     If your HW is inspired by this, be sure to cite it
-    This is equivolent to getting code from lab (which you should be citing too)
+    This is equivalent to getting code from lab (which you should be citing too)
+
+    Also note:
+    that these line lengths are sometimes too long, keep an eye on that
+    in your own code
+
+    The coments are notes that I included, this is not an example of clean commenting
+    which you should practice -talk to me if you want more clarity on what clean
+    comments look like
 '''
 
 
@@ -10,10 +18,10 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import datetime
-import spacy #conda install spacy
-             #python -m spacy download en_core_web_sm
+import spacy 
+             
 
-do_download = False
+do_download = False #don't forget to change to True for your first run-through
 
 #path = r'c:\users\jeff levy\desktop\fomc_lecture'
 path = '/Users/Sarah/Documents/GitHub/Sarah-Discussion-Notebooks' 
