@@ -24,7 +24,7 @@ import spacy
 do_download = False #don't forget to change to True for your first run-through
 
 #path = r'c:\users\jeff levy\desktop\fomc_lecture'
-path = '/Users/Sarah/Documents/GitHub/Sarah-Discussion-Notebooks' 
+path = '/Users/Sarah/Documents/GitHub/Sarah-Discussion-Notebooks/Data' 
 os.chdir(path) 
 
 urls = ['https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm',
